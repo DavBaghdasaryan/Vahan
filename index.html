@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>IBG Շինարարական ծառայությունների մատուցում</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+
+            <div class="header_inner">
+                <div class="header_logo">
+                    <img src="./assets/icons/logo.svg" alt="" class="logo main">
+                </div>
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li><a href="#" class="list_item intro">Գլխավոր</a></li>
+                        <li><a href="#" class="list_item about">Մեր Մասին</a></li>
+                        <li><a href="#" class="list_item about">Աշխատանքներ</a></li>
+                        <li><a href="#" class="list_item contact">կոնտակտներ</a></li>
+                    </ul>
+                </nav>
+                <div class="phone_number">
+                    <p>095009500</p>
+                </div>
+
+                <div class="burger_menu">
+                    <button class="burger"><img src="./assets/icons/menu.svg" alt="#"></button>
+                    <div class="burger_nav">
+                        <ul class="burger_nav_list">
+                            <li><a href="#" class="list_item intro">Գլխավոր</a></li>
+                            <li><a href="#" class="list_item about">Մեր Մասին</a></li>
+                            <li><a href="#" class="list_item about">Աշխատանքներ</a></li>
+                            <li><a href="#" class="list_item contact">կոնտակտներ</a></li>
+                        </ul>
+                        <p>095009500</p>
+                        <div class="close_btn">
+                            <img src="./assets/icons/close.svg" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- intro -->
+        <div class="intro_section">
+            <div class="container">
+
+                <div class="intro_inner">
+                    <div class="intro_title">IBG</div>
+                    <div class="intro_text">
+                        <p>Շինարարական Ծառայությունների մատուցում</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll_btn">
+                <img src="./assets/icons/down-arrow.svg" alt="" class="about_section_scroll">
+
+            </div>
+        </div>
+
+        <!-- about -->
+
+        <div class="about_section">
+            <div class="container">
+
+                <div class="about">
+                    <div class="about_us">
+                        <div class="about_section_title">
+                            <h1>Մեր մասին</h1>
+                        </div>
+                        <div class="about_text">
+                            <p>IBA Հաշվապահական ընկերությունը ստեղծվել է 2017 թվականին :</p>
+                            <p>Ընկերության նպատակն է մատուցել բարձրորակ և մատչելի հաշվապահական ծառայություններ ինչպես
+                                գործող,
+                                այնպես էլ նորաստեղծ կազմակերպությունների և անհատ ձեռնարկատերերի համար:</p>
+                            Մենք կազատենք ձեզ ավելորդ քաշքշուկներից և ծախսերից, ինչպես նաև կնվազեցնենք հարկերը օրենքի
+                            սահմաններում։
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="about_us_photos">
+                        <div class="sliders">
+                            <div class="mySlides fade">
+                                <img src="./assets/images/about_background.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/images/about_background.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/images/about_background.jpg" style="width:100%">
+                            </div>
+                        </div>
+
+                        <a class="prev">
+                            <img src="./assets/icons/left-arrow.svg" onclick="plusSlides(-1)" alt="">
+                        </a>
+                        <a class="next">
+                            <img src="./assets/icons/right-arrow-angle.svg" onclick="plusSlides(1)" alt="">
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+                <div class="scroll_btn">
+                    <img src="./assets/icons/down-arrow.svg" alt="#" class="contact_section_scroll">
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- contact -->
+
+        <div class="contact_section">
+            <div class="container">
+                <div class="contact_inner">
+                    <div class="contact_email">
+                        <form action="#" class="form">
+                            <input type="text" class="input" placeholder="Enter you email">
+                            <input type="text" class="input" placeholder="Enter you message">
+                            <input type="text" class="input" placeholder="Enter you phone-number">
+                            <button class="send_btn">send</button>
+                        </form>
+                    </div>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </main>
+    <script src="./index.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyAbt8obf6DvZ953fXQBwLM-hXEOz2ZdjKI&callback=initMap&libraries=&v=weekly"
+        async></script>
+</body>
+
+</html>
